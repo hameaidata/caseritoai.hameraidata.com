@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://caseritoai.hameraidata.com'),
   title: 'CaseritoAI | El asistente digital para tu bodega',
   description: 'Lleva el control de tus fiados, ventas, compras y stock hablando — como si le dictaras a un cuaderno, pero sin errores, sin olvidos y sin cuentas que no cuadran.',
   keywords: ['bodega', 'perú', 'app', 'ventas', 'inteligencia artificial', 'control de stock'],
@@ -14,9 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
+        url: '/logo-lg.png',
         alt: 'CaseritoAI',
       },
     ],

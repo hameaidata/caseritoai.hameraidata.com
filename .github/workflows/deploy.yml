@@ -30,14 +30,14 @@ jobs:
         run: touch ./frontend/out/.nojekyll
 
       - name: Create CNAME
-        run: echo "caseritoai.hameraidata.com" > ./frontend/out/CNAME
+        run: echo "caserito.hameraidata.com" > ./frontend/out/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./frontend/out
-          cname: caseritoai.hameraidata.com
+          cname: caserito.hameraidata.com
           user_name: 'GitHub Actions'
           user_email: 'actions@github.com'
           commit_message: 'Deploy from GitHub Actions'

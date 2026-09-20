@@ -22,7 +22,7 @@ export default function Terminos() {
               <li><strong>RUC:</strong> 10481247387</li>
               <li><strong>Domicilio:</strong> Empresa Virtual - Operaciones Online</li>
               <li><strong>Email:</strong> hameaidata@gmail.com</li>
-              <li><strong>Teléfono:</strong> +51 (por confirmar)</li>
+              <li><strong>Teléfono:</strong> +51 975682160</li>
             </ul>
           </section>
 

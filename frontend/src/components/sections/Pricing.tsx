@@ -119,15 +119,6 @@ export function Pricing() {
           })}
         </div>
 
-        <div className="bg-white rounded-xl p-6 border border-slate-200 text-center mb-8">
-          <p className="text-slate-700">
-            <strong>Bodega Familiar · 1 dispositivo(s) · S/39.90/mes</strong>
-          </p>
-          <p className="text-sm text-slate-500 mt-2">
-            Primer mes con descuento. Cancela cuando quieras.
-          </p>
-        </div>
-
         <div className="text-center text-sm text-slate-600">
           ¿Tienes varios locales o empleados? Tenemos precios preferenciales.{' '}
           <a

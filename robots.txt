@@ -3,4 +3,4 @@ Allow: /
 Disallow: /checkout
 Disallow: /api/
 
-Sitemap: https://caserito.hameraidata.com/sitemap.xml
+Sitemap: https://caseritoai.hameraidata.com/sitemap.xml
